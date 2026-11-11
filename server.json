@@ -3,7 +3,11 @@
   "name": "ai.listplus/listplus",
   "title": "ListPlus",
   "description": "Check and clean B2B contacts in your lists, find leads, size markets, fill work e-mail and mobile.",
-  "version": "1.4.1",
+  "version": "1.4.2",
+  "repository": {
+    "url": "https://github.com/stephan-listplus/listplus-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://listplus.ai/en/ai-agents",
   "icons": [
     {
