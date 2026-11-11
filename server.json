@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.listplus/listplus",
+  "title": "ListPlus",
+  "description": "Check and clean B2B contacts in your lists, find leads, size markets, fill work e-mail and mobile.",
+  "version": "1.4.1",
+  "websiteUrl": "https://listplus.ai/en/ai-agents",
+  "icons": [
+    {
+      "src": "https://listplus.ai/icon-192x192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://listplus.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: your ListPlus agent key (listplus.ai/app/agents). Clients that support OAuth sign in instead. Without either, the data checks, market counts and price estimates work; the person search, lists and enriching need one.",
+          "value": "Bearer {agent_key}",
+          "isRequired": false,
+          "isSecret": true,
+          "variables": {
+            "agent_key": {
+              "description": "Agent key, starts with lpk_",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "lpk_…"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
