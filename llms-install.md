@@ -10,7 +10,7 @@ created in ListPlus under **Agents**: https://listplus.ai/app/agents
 (a ListPlus account is needed; the Basic plan costs nothing).
 
 Never invent a key. Without one, add the server without the `headers` block:
-the data checks (`check_records`), market counts (`count_companies`),
+the data checks (`check_records`), market sizing — company counts (`count_companies`),
 `search_options` and price estimates still work.
 
 ## 2. Add the server

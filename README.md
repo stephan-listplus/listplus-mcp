@@ -7,7 +7,7 @@ Remote [Model Context Protocol](https://modelcontextprotocol.io) server of
   mailboxes, duplicates, placeholders, phone codes that do not fit the
   country), each finding with a proposed fix. Nothing is stored.
 - **Find people and companies** — look up one person, search by role,
-  seniority, industry, place and company size, or count a market by country,
+  seniority, industry, place and company size, or size a market — count the companies matching a country,
   industry, NAICS code and size before loading a record.
 - **Fill missing fields** — work e-mail, mobile, job title, LinkedIn profile
   and company data from several providers. The agent gets an estimate and a
@@ -29,7 +29,7 @@ The server itself is hosted by ListPlus; there is nothing to install or run.
 | Documentation | https://listplus.ai/en/ai-agents |
 | Pricing | https://listplus.ai/en/pricing |
 
-Data checks, market counts and price estimates work without an account and
+Data checks, market sizing (how many companies match a filter) and price estimates work without an account and
 cost no credits. The person search, lists and enrichment need a ListPlus
 account; paid steps use the workspace's credits, within a day budget per
 connection.
