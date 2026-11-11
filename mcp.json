@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "listplus": {
+      "url": "https://listplus.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LISTPLUS_API_KEY}"
+      }
+    }
+  }
+}

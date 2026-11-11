@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="192px" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-listplus-color</title>
+    <g id="logo-listplus-color" stroke="none" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#9334E9" x="0" y="0" width="192" height="192" rx="22"></rect>
+        <g id="Group" stroke-width="1" transform="translate(31, 35)" fill="#FFFFFF">
+            <path d="M103,39 C89.745166,39 79,49.745166 79,63 L78.999,66.986 L13.9933338,66.9866676 C6.26502894,66.9866676 0,60.7216386 0,52.9933338 C-1.77635684e-15,45.2650289 6.26502894,39 13.9933338,39 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle" x="0" y="0" width="117.93885" height="27.9866676" rx="13.9933338"></rect>
+            <path d="M54.7664599,77.9570487 C51.7673093,81.8418449 49.9831311,86.7125639 49.9831311,92 C49.9831311,97.2433049 51.7376505,102.07682 54.6916176,105.945473 L13.9933338,105.944766 C6.26502894,105.944766 0,99.6797367 0,91.9514319 C0,84.223127 6.26502894,77.9580981 13.9933338,77.9580981 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle-Copy-12" transform="translate(101.5, 91.96) rotate(-180) translate(-101.5, -91.96)" x="61" y="77.96" width="81" height="28" rx="14"></rect>
+            <path d="M77.51,77 L130.51,77 C138.241986,77 144.51,83.2680135 144.51,91 C144.51,98.7319865 138.241986,105 130.51,105 L77.51,105 C69.7780135,105 63.51,98.7319865 63.51,91 C63.51,83.2680135 69.7780135,77 77.51,77 Z" id="Rectangle-Copy-11" transform="translate(104.01, 91) rotate(-90) translate(-104.01, -91)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "name": "listplus",
+  "version": "1.0.0",
+  "description": "B2B contact data for your agent: 100+ data-quality checks with proposed fixes, people and company search, market counts, and enrichment of work e-mail, mobile and company data — priced before it runs.",
+  "author": {
+    "name": "ListPlus",
+    "email": "support@listplus.ai"
+  },
+  "homepage": "https://listplus.ai/en/ai-agents",
+  "repository": "https://github.com/stephan-listplus/listplus-mcp",
+  "keywords": ["b2b-data", "data-quality", "enrichment", "lead-generation", "sales", "crm", "mcp"],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "LISTPLUS_API_KEY": {
+        "type": "string",
+        "title": "ListPlus agent key",
+        "description": "Agent key of your ListPlus workspace (starts with lpk_). Create one at https://listplus.ai/app/agents."
+      }
+    },
+    "required": ["LISTPLUS_API_KEY"]
+  }
+}

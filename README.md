@@ -75,6 +75,25 @@ claude mcp add --transport http listplus https://listplus.ai/mcp \
 }
 ```
 
+This repository is also a Cursor plugin (`.cursor-plugin/plugin.json`,
+`mcp.json`): installed from the Cursor Marketplace, it asks for the key once.
+
+### Cline
+
+`cline_mcp_settings.json` (details for agents: [`llms-install.md`](llms-install.md)):
+
+```json
+{
+  "mcpServers": {
+    "listplus": {
+      "type": "streamableHttp",
+      "url": "https://listplus.ai/mcp",
+      "headers": { "Authorization": "Bearer lpk_YOUR_KEY" }
+    }
+  }
+}
+```
+
 ### VS Code
 
 `.vscode/mcp.json`:
