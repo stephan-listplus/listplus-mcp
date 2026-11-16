@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.listplus/listplus",
   "title": "ListPlus",
-  "description": "Check and clean B2B contacts in your lists, find leads, size markets, fill work e-mail and mobile.",
-  "version": "1.4.2",
+  "description": "Check B2B leads before you pay to enrich them: 120+ checks with fixes. Then find and enrich leads.",
+  "version": "1.4.3",
   "repository": {
     "url": "https://github.com/stephan-listplus/listplus-mcp",
     "source": "github"

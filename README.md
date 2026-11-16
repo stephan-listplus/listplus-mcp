@@ -3,7 +3,27 @@
 Remote [Model Context Protocol](https://modelcontextprotocol.io) server of
 [ListPlus](https://listplus.ai) — B2B contact data your AI agent can trust.
 
-- **Check records** — 100+ data-quality checks (typos in e-mail domains, role
+**Check before you enrich.** A lot of the money in an enrichment table isn't
+lost on bad providers. It's lost on rows that were never going to send: info@
+addresses, the same person pulled from two providers, "Founder | Ex-Stripe" in
+the last-name field, a +49 number on a US contact. You find out after the
+credits are gone.
+
+So ListPlus runs a step before enrichment: 120+ checks on any list, each
+finding with a proposed fix. And the list decides what gets enriched: every
+list can carry a score and rules, and enrichment is a rule's action — only
+records that pass the checks and reach your score are enriched, with a budget
+per record.
+
+See it in action:
+
+- [Enrich only the ones that fit](https://listplus.ai/en/gtm-workflows/lead-scoring-before-enrichment) — check and score first, then enrich
+- [Check and fix a CSV with your agent](https://listplus.ai/en/gtm-workflows/contact-data-cleansing-check-and-fix)
+- [Duplicate check before a CRM import](https://listplus.ai/en/gtm-workflows/crm-duplicate-check-before-import)
+
+## What it does
+
+- **Check records** — 120+ data-quality checks (typos in e-mail domains, role
   mailboxes, duplicates, placeholders, phone codes that do not fit the
   country), each finding with a proposed fix. Nothing is stored.
 - **Find people and companies** — look up one person, search by role,
