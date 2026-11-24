@@ -44,7 +44,7 @@ The server itself is hosted by ListPlus; there is nothing to install or run.
 | Server URL | `https://listplus.ai/mcp` (streamable HTTP) |
 | MCP Registry | `ai.listplus/listplus` ([`server.json`](server.json)) |
 | Tools | 26 |
-| Authentication | OAuth (Claude, ChatGPT, Claude Code) or an agent key `lpk_…` |
+| Authentication | OAuth (Claude, ChatGPT, Claude Code, Cursor, Grok Bot) or an agent key `lpk_…` |
 | REST API | `https://listplus.ai/a` · [OpenAPI](https://listplus.ai/a/openapi.json) |
 | Documentation | https://listplus.ai/en/ai-agents |
 | Pricing | https://listplus.ai/en/pricing |
@@ -95,8 +95,24 @@ claude mcp add --transport http listplus https://listplus.ai/mcp \
 }
 ```
 
-This repository is also a Cursor plugin (`.cursor-plugin/plugin.json`,
-`mcp.json`): installed from the Cursor Marketplace, it asks for the key once.
+With a sign-in instead of a key (Cursor's static OAuth, the client id is
+public):
+
+```json
+{
+  "mcpServers": {
+    "listplus": {
+      "url": "https://listplus.ai/mcp",
+      "auth": { "CLIENT_ID": "listplus-cursor" }
+    }
+  }
+}
+```
+
+This repository is also a plugin for the Cursor Marketplace and Grok Bot
+(`.cursor-plugin/plugin.json`, `mcp.json`): the server, signed in with your
+ListPlus account, plus a skill (`skills/listplus/SKILL.md`) that tells the
+agent how a ListPlus list works by itself and what to tell you about it.
 
 ### Cline
 
@@ -163,6 +179,8 @@ through an agent.
 - "What would it cost to get work e-mails for these 10 people?"
 - "Find 25 RevOps managers at SaaS companies in the US and put them into a
   new list."
+- "Put the leads I researched into a new list and tell me what ListPlus can
+  do with them by itself."
 
 ## Links
 
@@ -172,3 +190,7 @@ through an agent.
 - Support: support@listplus.ai
 
 ListPlus is built by salesperformer GmbH, Germany, and hosted in the EU.
+
+The files of this repository (metadata, setup instructions, the agent skill)
+are under the [MIT License](LICENSE). The ListPlus service itself is not
+open source; its use is governed by the [Terms](https://listplus.ai/en/terms).

@@ -1,9 +1,10 @@
 {
   "mcpServers": {
     "listplus": {
+      "type": "http",
       "url": "https://listplus.ai/mcp",
-      "headers": {
-        "Authorization": "Bearer ${LISTPLUS_API_KEY}"
+      "auth": {
+        "CLIENT_ID": "listplus-cursor"
       }
     }
   }

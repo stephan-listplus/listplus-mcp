@@ -7,7 +7,10 @@ run locally — setup is one entry in the client's MCP configuration.
 
 Ask the user for their ListPlus agent key. It starts with `lpk_` and is
 created in ListPlus under **Agents**: https://listplus.ai/app/agents
-(a ListPlus account is needed; the Basic plan costs nothing).
+(a ListPlus account is needed; the Basic plan is enough).
+
+Cursor and Grok Bot can sign in instead of using a key: the plugin in this
+repository (`mcp.json`) carries the public OAuth client id.
 
 Never invent a key. Without one, add the server without the `headers` block:
 the data checks (`check_records`), market sizing — company counts (`count_companies`),
