@@ -1,7 +1,7 @@
 {
   "name": "listplus",
   "version": "1.5.0",
-  "description": "Lists of B2B contacts and companies that work by themselves: 120+ data-quality checks with fixes, people and company search, market sizing, and lookups of work e-mail, mobile and LinkedIn profile — priced before they run. Score records by rules and hand them to your CRM.",
+  "description": "Keep your agent's leads in one list: dedupe, check, enrich, verify emails, score, and route to your CRM.",
   "author": {
     "name": "ListPlus",
     "email": "support@listplus.ai"
@@ -10,14 +10,32 @@
   "repository": "https://github.com/stephan-listplus/listplus-mcp",
   "license": "MIT",
   "keywords": [
-    "b2b-data",
-    "data-quality",
+    "listplus",
+    "leads",
+    "lists",
     "enrichment",
-    "lead-generation",
-    "sales",
+    "waterfall enrichment",
+    "email verifier",
+    "data quality",
+    "dedupe",
+    "lead scoring",
+    "prospecting",
+    "list building",
     "crm",
+    "hubspot",
+    "salesforce",
     "gtm",
     "revops",
+    "sales",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "sales",
+    "gtm",
+    "enrichment",
+    "data-quality",
+    "crm",
     "mcp"
   ],
   "logo": "assets/logo.svg",
